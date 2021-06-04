@@ -11,6 +11,8 @@
 		E24D02D026644D8A009E46D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D02CF26644D8A009E46D1 /* ContentView.swift */; };
 		E24D02D226644D91009E46D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24D02D126644D91009E46D1 /* Assets.xcassets */; };
 		E24D02D526644D91009E46D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24D02D426644D91009E46D1 /* Preview Assets.xcassets */; };
+		E24D02DD26644F42009E46D1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D02DC26644F42009E46D1 /* MainView.swift */; };
+		E24D02DF2664542A009E46D1 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D02DE2664542A009E46D1 /* TabBarButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E24D02D126644D91009E46D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24D02D426644D91009E46D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E24D02D626644D91009E46D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24D02DC26644F42009E46D1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E24D02DE2664542A009E46D1 /* TabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				E24D02CD26644D8A009E46D1 /* TinderCloneApp.swift */,
 				E24D02CF26644D8A009E46D1 /* ContentView.swift */,
+				E24D02DC26644F42009E46D1 /* MainView.swift */,
+				E24D02DE2664542A009E46D1 /* TabBarButtonView.swift */,
 				E24D02D126644D91009E46D1 /* Assets.xcassets */,
 				E24D02D626644D91009E46D1 /* Info.plist */,
 				E24D02D326644D91009E46D1 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24D02DF2664542A009E46D1 /* TabBarButtonView.swift in Sources */,
 				E24D02D026644D8A009E46D1 /* ContentView.swift in Sources */,
+				E24D02DD26644F42009E46D1 /* MainView.swift in Sources */,
 				E24D02CE26644D8A009E46D1 /* TinderCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
