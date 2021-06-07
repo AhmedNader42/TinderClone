@@ -19,7 +19,7 @@ struct MainView: View {
         case .message:
             return AnyView(Color.white)
         case .profile:
-            return AnyView(Color.green)
+            return AnyView(ProfileView())
         }
     }
     var body: some View {
