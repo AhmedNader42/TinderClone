@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var manager : AppStateManager = AppStateManager()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        MainView()
+            .environmentObject(manager)
     }
 }
 
