@@ -17,34 +17,36 @@ struct MainView: View {
         case .star:
             return AnyView(Text("Hello World!"))
         case .message:
-            return AnyView(Color.white)
+            return AnyView(MessageListView())
         case .profile:
             return AnyView(ProfileView())
         }
     }
     var body: some View {
-        ZStack {
-            Color(.systemGray6)
-                .opacity(0.35)
-                .edgesIgnoringSafeArea(.vertical)
-            VStack {
-                HStack {
+        NavigationView {
+            ZStack {
+                Color(.systemGray6)
+                    .opacity(0.35)
+                    .edgesIgnoringSafeArea(.vertical)
+                VStack {
+                    HStack {
+                        Spacer()
+                        TabBarButtonView(type: .fire)
+                        Spacer()
+                        TabBarButtonView(type: .star)
+                        Spacer()
+                        TabBarButtonView(type: .message)
+                        Spacer()
+                        TabBarButtonView(type: .profile)
+                        Spacer()
+                    }
+                    .frame(height: 100)
+                    .padding(.top, 30)
+                    switchAppState()
                     Spacer()
-                    TabBarButtonView(type: .fire)
-                    Spacer()
-                    TabBarButtonView(type: .star)
-                    Spacer()
-                    TabBarButtonView(type: .message)
-                    Spacer()
-                    TabBarButtonView(type: .profile)
-                    Spacer()
-                }
-                .frame(height: 100)
-                .padding(.top, 30)
-                switchAppState()
-                Spacer()
-                
-            }.edgesIgnoringSafeArea(.vertical)
+                    
+                }.edgesIgnoringSafeArea(.vertical)
+            }.modifier(HideNavigationView())
         }
     }
 }
