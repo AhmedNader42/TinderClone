@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2108E1A268652FB0066B819 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E19268652FB0066B819 /* UserManager.swift */; };
+		E2108E1C268653450066B819 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E1B268653450066B819 /* User.swift */; };
+		E2108E1F2686557C0066B819 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E1E2686557C0066B819 /* LikeView.swift */; };
+		E2108E2126865CE60066B819 /* PersonSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E2026865CE60066B819 /* PersonSquare.swift */; };
 		E218553026861298003181DF /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218552F26861298003181DF /* MessageList.swift */; };
 		E218553226861381003181DF /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218553126861381003181DF /* MessageListViewModel.swift */; };
 		E218553426861E48003181DF /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218553326861E48003181DF /* MessageRowView.swift */; };
@@ -32,6 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2108E19268652FB0066B819 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		E2108E1B268653450066B819 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E2108E1E2686557C0066B819 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		E2108E2026865CE60066B819 /* PersonSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSquare.swift; sourceTree = "<group>"; };
 		E218552F26861298003181DF /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
 		E218553126861381003181DF /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
 		E218553326861E48003181DF /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
@@ -69,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2108E1D268655700066B819 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				E2108E1E2686557C0066B819 /* LikeView.swift */,
+				E2108E2026865CE60066B819 /* PersonSquare.swift */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
 		E24D02C126644D89009E46D1 = {
 			isa = PBXGroup;
 			children = (
@@ -90,10 +107,12 @@
 			children = (
 				E24D02CD26644D8A009E46D1 /* TinderCloneApp.swift */,
 				E24D02CF26644D8A009E46D1 /* ContentView.swift */,
+				E2108E19268652FB0066B819 /* UserManager.swift */,
 				E24C0302266ADB2E005AAAF7 /* AppStateManager.swift */,
 				E2D5C66C266EADF000D37A2D /* MainTabBar */,
 				E2D5C66F266EB49000D37A2D /* Profile */,
 				E29E71CC268532A100E0B00E /* Messages */,
+				E2108E1D268655700066B819 /* Matches */,
 				E29E71C72685304800E0B00E /* Model */,
 				E2D5C675266EBA1B00D37A2D /* HelperViews */,
 				E2288484266CCC5F00985CB6 /* Extensions.swift */,
@@ -118,6 +137,7 @@
 				E29E71C52685303E00E0B00E /* Message.swift */,
 				E29E71C82685312000E0B00E /* Person.swift */,
 				E29E71CA2685320300E0B00E /* MessagePreview.swift */,
+				E2108E1B268653450066B819 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,12 +260,14 @@
 				E29E71D226853DB000E0B00E /* ChatManager.swift in Sources */,
 				E24D02DF2664542A009E46D1 /* TabBarButtonView.swift in Sources */,
 				E2D5C671266EB67C00D37A2D /* RoundedImage.swift in Sources */,
+				E2108E2126865CE60066B819 /* PersonSquare.swift in Sources */,
 				E29E71D4268544C300E0B00E /* ChatViewHeader.swift in Sources */,
 				E2288485266CCC5F00985CB6 /* Extensions.swift in Sources */,
 				E218553426861E48003181DF /* MessageRowView.swift in Sources */,
 				E24D02D026644D8A009E46D1 /* ContentView.swift in Sources */,
 				E29E71D026853C9E00E0B00E /* ChatView.swift in Sources */,
 				E29E71C92685312000E0B00E /* Person.swift in Sources */,
+				E2108E1F2686557C0066B819 /* LikeView.swift in Sources */,
 				E29E71CE268532CB00E0B00E /* MessageView.swift in Sources */,
 				E2D5C677266EE1B600D37A2D /* ProfileSwipePromo.swift in Sources */,
 				E24D02DD26644F42009E46D1 /* MainView.swift in Sources */,
@@ -255,7 +277,9 @@
 				E218553226861381003181DF /* MessageListViewModel.swift in Sources */,
 				E24C0303266ADB2E005AAAF7 /* AppStateManager.swift in Sources */,
 				E218553026861298003181DF /* MessageList.swift in Sources */,
+				E2108E1A268652FB0066B819 /* UserManager.swift in Sources */,
 				E29E71CB2685320300E0B00E /* MessagePreview.swift in Sources */,
+				E2108E1C268653450066B819 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
