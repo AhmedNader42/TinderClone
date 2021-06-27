@@ -1,5 +1,5 @@
 //
-//  LikeView.swift
+//  LikesView.swift
 //  TinderClone
 //
 //  Created by ahmed on 25/06/2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LikeView: View {
+struct LikesView: View {
     @EnvironmentObject var userMng: UserManager
     @EnvironmentObject var appState: AppStateManager
     
@@ -56,9 +56,9 @@ struct LikeView: View {
     
 }
 
-struct LikeView_Previews: PreviewProvider {
+struct LikesView_Previews: PreviewProvider {
     static var previews: some View {
-        LikeView()
+        LikesView()
             .environmentObject(UserManager())
             .environmentObject(AppStateManager())
     }

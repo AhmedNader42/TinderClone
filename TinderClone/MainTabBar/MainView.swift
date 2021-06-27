@@ -15,7 +15,7 @@ struct MainView: View {
         case .fire:
             return AnyView(Color.red)
         case .star:
-            return AnyView(Text("Hello World!"))
+            return AnyView(MatchesView())
         case .message:
             return AnyView(MessageListView())
         case .profile:
@@ -46,6 +46,13 @@ struct MainView: View {
                     Spacer()
                     
                 }.edgesIgnoringSafeArea(.vertical)
+                
+                if appState.showPurchasePopup {
+                    PurchasePopup(isVisible: $appState.showPurchasePopup)
+                        .animation(.spring(response: 0.3, dampingFraction: 0.75, blendDuration: 0.5))
+                        .transition(.offset(y:1000))
+                }
+                
             }.modifier(HideNavigationView())
         }
     }
@@ -53,7 +60,9 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView().environmentObject(AppStateManager())
+        MainView()
+            .environmentObject(AppStateManager())
+            .environmentObject(UserManager())
     }
 }
 

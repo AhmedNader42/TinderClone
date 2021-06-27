@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E209347726878C0600D8CFCA /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209347626878C0600D8CFCA /* MatchesView.swift */; };
 		E2108E1A268652FB0066B819 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E19268652FB0066B819 /* UserManager.swift */; };
 		E2108E1C268653450066B819 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E1B268653450066B819 /* User.swift */; };
-		E2108E1F2686557C0066B819 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E1E2686557C0066B819 /* LikeView.swift */; };
+		E2108E1F2686557C0066B819 /* LikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E1E2686557C0066B819 /* LikesView.swift */; };
 		E2108E2126865CE60066B819 /* PersonSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2108E2026865CE60066B819 /* PersonSquare.swift */; };
 		E218553026861298003181DF /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218552F26861298003181DF /* MessageList.swift */; };
 		E218553226861381003181DF /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218553126861381003181DF /* MessageListViewModel.swift */; };
 		E218553426861E48003181DF /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218553326861E48003181DF /* MessageRowView.swift */; };
 		E2288485266CCC5F00985CB6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2288484266CCC5F00985CB6 /* Extensions.swift */; };
+		E229C6F42687E2A20004C1A9 /* PurchasePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229C6F32687E2A20004C1A9 /* PurchasePopup.swift */; };
+		E229C6F72687FD6D0004C1A9 /* PurchaseSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229C6F62687FD6D0004C1A9 /* PurchaseSwipePromo.swift */; };
+		E229C6FA2687FFFD0004C1A9 /* PurchaseOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229C6F92687FFFD0004C1A9 /* PurchaseOptionsView.swift */; };
+		E229C6FC2688003B0004C1A9 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229C6FB2688003B0004C1A9 /* Subscription.swift */; };
+		E229C6FE26880BAF0004C1A9 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229C6FD26880BAF0004C1A9 /* RoundedCorner.swift */; };
 		E24C0303266ADB2E005AAAF7 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C0302266ADB2E005AAAF7 /* AppStateManager.swift */; };
 		E24D02CE26644D8A009E46D1 /* TinderCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D02CD26644D8A009E46D1 /* TinderCloneApp.swift */; };
 		E24D02D026644D8A009E46D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D02CF26644D8A009E46D1 /* ContentView.swift */; };
@@ -29,6 +35,7 @@
 		E29E71D026853C9E00E0B00E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E71CF26853C9E00E0B00E /* ChatView.swift */; };
 		E29E71D226853DB000E0B00E /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E71D126853DB000E0B00E /* ChatManager.swift */; };
 		E29E71D4268544C300E0B00E /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E71D3268544C300E0B00E /* ChatViewHeader.swift */; };
+		E2C5285D268788B300BCAA37 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C5285C268788B300BCAA37 /* TopPicksView.swift */; };
 		E2D5C66E266EB47D00D37A2D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D5C66D266EB47D00D37A2D /* ProfileView.swift */; };
 		E2D5C671266EB67C00D37A2D /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D5C670266EB67C00D37A2D /* RoundedImage.swift */; };
 		E2D5C674266EB90C00D37A2D /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E2D5C673266EB90C00D37A2D /* KingfisherSwiftUI */; };
@@ -36,14 +43,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E209347626878C0600D8CFCA /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
 		E2108E19268652FB0066B819 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		E2108E1B268653450066B819 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		E2108E1E2686557C0066B819 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		E2108E1E2686557C0066B819 /* LikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesView.swift; sourceTree = "<group>"; };
 		E2108E2026865CE60066B819 /* PersonSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSquare.swift; sourceTree = "<group>"; };
 		E218552F26861298003181DF /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
 		E218553126861381003181DF /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
 		E218553326861E48003181DF /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
 		E2288484266CCC5F00985CB6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E229C6F32687E2A20004C1A9 /* PurchasePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasePopup.swift; sourceTree = "<group>"; };
+		E229C6F62687FD6D0004C1A9 /* PurchaseSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSwipePromo.swift; sourceTree = "<group>"; };
+		E229C6F92687FFFD0004C1A9 /* PurchaseOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseOptionsView.swift; sourceTree = "<group>"; };
+		E229C6FB2688003B0004C1A9 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		E229C6FD26880BAF0004C1A9 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		E24C0302266ADB2E005AAAF7 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		E24D02CA26644D89009E46D1 /* TinderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24D02CD26644D8A009E46D1 /* TinderCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneApp.swift; sourceTree = "<group>"; };
@@ -60,6 +73,7 @@
 		E29E71CF26853C9E00E0B00E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		E29E71D126853DB000E0B00E /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 		E29E71D3268544C300E0B00E /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
+		E2C5285C268788B300BCAA37 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
 		E2D5C66D266EB47D00D37A2D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E2D5C670266EB67C00D37A2D /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		E2D5C676266EE1B600D37A2D /* ProfileSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwipePromo.swift; sourceTree = "<group>"; };
@@ -80,10 +94,39 @@
 		E2108E1D268655700066B819 /* Matches */ = {
 			isa = PBXGroup;
 			children = (
-				E2108E1E2686557C0066B819 /* LikeView.swift */,
+				E2108E1E2686557C0066B819 /* LikesView.swift */,
 				E2108E2026865CE60066B819 /* PersonSquare.swift */,
+				E2C5285C268788B300BCAA37 /* TopPicksView.swift */,
+				E209347626878C0600D8CFCA /* MatchesView.swift */,
 			);
 			path = Matches;
+			sourceTree = "<group>";
+		};
+		E229C6F52687E2A70004C1A9 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				E229C6F82687FD780004C1A9 /* Purchase */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		E229C6F82687FD780004C1A9 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				E229C6F32687E2A20004C1A9 /* PurchasePopup.swift */,
+				E229C6F92687FFFD0004C1A9 /* PurchaseOptionsView.swift */,
+				E229C6F62687FD6D0004C1A9 /* PurchaseSwipePromo.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		E229C6FF26880BB80004C1A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2288484266CCC5F00985CB6 /* Extensions.swift */,
+				E229C6FD26880BAF0004C1A9 /* RoundedCorner.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E24D02C126644D89009E46D1 = {
@@ -114,8 +157,9 @@
 				E29E71CC268532A100E0B00E /* Messages */,
 				E2108E1D268655700066B819 /* Matches */,
 				E29E71C72685304800E0B00E /* Model */,
+				E229C6F52687E2A70004C1A9 /* Popups */,
 				E2D5C675266EBA1B00D37A2D /* HelperViews */,
-				E2288484266CCC5F00985CB6 /* Extensions.swift */,
+				E229C6FF26880BB80004C1A9 /* Extensions */,
 				E24D02D126644D91009E46D1 /* Assets.xcassets */,
 				E24D02D626644D91009E46D1 /* Info.plist */,
 				E24D02D326644D91009E46D1 /* Preview Content */,
@@ -138,6 +182,7 @@
 				E29E71C82685312000E0B00E /* Person.swift */,
 				E29E71CA2685320300E0B00E /* MessagePreview.swift */,
 				E2108E1B268653450066B819 /* User.swift */,
+				E229C6FB2688003B0004C1A9 /* Subscription.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,23 +307,30 @@
 				E2D5C671266EB67C00D37A2D /* RoundedImage.swift in Sources */,
 				E2108E2126865CE60066B819 /* PersonSquare.swift in Sources */,
 				E29E71D4268544C300E0B00E /* ChatViewHeader.swift in Sources */,
+				E229C6F42687E2A20004C1A9 /* PurchasePopup.swift in Sources */,
+				E229C6FA2687FFFD0004C1A9 /* PurchaseOptionsView.swift in Sources */,
 				E2288485266CCC5F00985CB6 /* Extensions.swift in Sources */,
+				E209347726878C0600D8CFCA /* MatchesView.swift in Sources */,
 				E218553426861E48003181DF /* MessageRowView.swift in Sources */,
 				E24D02D026644D8A009E46D1 /* ContentView.swift in Sources */,
 				E29E71D026853C9E00E0B00E /* ChatView.swift in Sources */,
+				E229C6FE26880BAF0004C1A9 /* RoundedCorner.swift in Sources */,
 				E29E71C92685312000E0B00E /* Person.swift in Sources */,
-				E2108E1F2686557C0066B819 /* LikeView.swift in Sources */,
+				E2108E1F2686557C0066B819 /* LikesView.swift in Sources */,
 				E29E71CE268532CB00E0B00E /* MessageView.swift in Sources */,
 				E2D5C677266EE1B600D37A2D /* ProfileSwipePromo.swift in Sources */,
 				E24D02DD26644F42009E46D1 /* MainView.swift in Sources */,
 				E24D02CE26644D8A009E46D1 /* TinderCloneApp.swift in Sources */,
 				E29E71C62685303E00E0B00E /* Message.swift in Sources */,
 				E2D5C66E266EB47D00D37A2D /* ProfileView.swift in Sources */,
+				E229C6F72687FD6D0004C1A9 /* PurchaseSwipePromo.swift in Sources */,
 				E218553226861381003181DF /* MessageListViewModel.swift in Sources */,
 				E24C0303266ADB2E005AAAF7 /* AppStateManager.swift in Sources */,
 				E218553026861298003181DF /* MessageList.swift in Sources */,
 				E2108E1A268652FB0066B819 /* UserManager.swift in Sources */,
+				E2C5285D268788B300BCAA37 /* TopPicksView.swift in Sources */,
 				E29E71CB2685320300E0B00E /* MessagePreview.swift in Sources */,
+				E229C6FC2688003B0004C1A9 /* Subscription.swift in Sources */,
 				E2108E1C268653450066B819 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
