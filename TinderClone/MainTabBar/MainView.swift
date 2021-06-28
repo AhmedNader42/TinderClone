@@ -9,11 +9,11 @@ import SwiftUI
 
 struct MainView: View {
     @EnvironmentObject var appState: AppStateManager
-    
+
     func switchAppState() -> some View {
         switch appState.selectedTab {
         case .fire:
-            return AnyView(Color.red)
+            return AnyView(HomeView())
         case .star:
             return AnyView(MatchesView())
         case .message:
@@ -22,6 +22,7 @@ struct MainView: View {
             return AnyView(ProfileView())
         }
     }
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -44,15 +45,15 @@ struct MainView: View {
                     .padding(.top, 30)
                     switchAppState()
                     Spacer()
-                    
+
                 }.edgesIgnoringSafeArea(.vertical)
-                
+
                 if appState.showPurchasePopup {
                     PurchasePopup(isVisible: $appState.showPurchasePopup)
                         .animation(.spring(response: 0.3, dampingFraction: 0.75, blendDuration: 0.5))
-                        .transition(.offset(y:1000))
+                        .transition(.offset(y: 1000))
                 }
-                
+
             }.modifier(HideNavigationView())
         }
     }
@@ -65,5 +66,3 @@ struct MainView_Previews: PreviewProvider {
             .environmentObject(UserManager())
     }
 }
-
-
